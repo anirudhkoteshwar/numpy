@@ -14,3 +14,4 @@ print(a[0,:])
 print(a[:,2])
 
 # get a range of elements start:stop:step
+print(a[0,1:4:1])
