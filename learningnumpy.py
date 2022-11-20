@@ -16,4 +16,14 @@ print(b.shape)
 print(a.dtype)
 print(b.dtype)
 print(c.dtype)
-#get size of an array
+
+#get size of each element in an array
+print(a.itemsize) #int is 8 bytes
+print(b.itemsize) #float is 8 bytes
+print(c.itemsize) #short is 2 bytes
+
+#get total size of array
+#one method is to multiply itemsize with number of items
+print(a.nbytes) 
+print(b.nbytes) 
+print(c.nbytes) 
