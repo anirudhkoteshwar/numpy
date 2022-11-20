@@ -13,5 +13,5 @@ print(a[0,:])
 # get a column
 print(a[:,2])
 
-# get a range of elements start:stop:step
+# get a range of elements start:stop:step (is exclusive)
 print(a[0,1:4:1])
