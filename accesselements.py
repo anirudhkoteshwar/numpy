@@ -15,3 +15,10 @@ print(a[:,2])
 
 # get a range of elements start:stop:step (is exclusive)
 print(a[0,1:4:1])
+
+#modify entire row/column
+a[0,0:5] = 20
+print(a)
+
+a[:,1:3] = [1,2]
+print(a)
