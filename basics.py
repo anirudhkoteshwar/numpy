@@ -4,7 +4,7 @@ a = np.array([1,2,3])
 #print(a)
 b = np.array([[1.1,2.2,3.3],[4.4,5.5,6.6]])
 #print(b)
-c = np.array([1,2,3,4,5], dtype='int16') #set specific type of array
+c = np.array([1,2,3,4,5], dtype='int16') #set datatype of array
 
 #get dimentions of an array
 print(a.ndim)
@@ -27,3 +27,5 @@ print(c.itemsize) #short is 2 bytes
 print(a.nbytes) 
 print(b.nbytes) 
 print(c.nbytes) 
+
+
